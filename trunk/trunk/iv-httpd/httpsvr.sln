@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "httpsvr", "httpsvr\httpsvr.vcproj", "{F191A69E-96D0-4327-B642-6B4EFC04C744}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B67B6014-DC3D-4ACA-BE32-C6B2B19BB38C} = {B67B6014-DC3D-4ACA-BE32-C6B2B19BB38C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mongoose", "SDK\mongoose\mongoose.vcproj", "{B67B6014-DC3D-4ACA-BE32-C6B2B19BB38C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Release|Win32.ActiveCfg = Release|Win32
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Release|Win32.Build.0 = Release|Win32
+		{B67B6014-DC3D-4ACA-BE32-C6B2B19BB38C}.Release|Win32.ActiveCfg = Release|Win32
+		{B67B6014-DC3D-4ACA-BE32-C6B2B19BB38C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
