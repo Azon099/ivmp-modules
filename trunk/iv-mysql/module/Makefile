@@ -1,9 +1,9 @@
 CC = g++
-FLAGS = -m32 -shared -Wall -fPIC -I./ `mysql_config --libs --include`
+FLAGS = -m32 -shared -Wall -fPIC -D_LINUX -I./ `mysql_config --libs --include`
 
-OUTFILE = iv-mysql.so
+OUTFILE = ../../Binary/modules/iv-mysql.so
 
-SRC = $(wildcard ./*.cpp ./SDK/*.cpp)
+SRC = $(wildcard ./*.cpp ../../SDK/*.cpp)
 
 all: iv-mysql
 
