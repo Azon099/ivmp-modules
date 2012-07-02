@@ -1,0 +1,1 @@
+xcopy /E /Y pawn_sdk ..\Binary\sdk\pawn_sdk\
