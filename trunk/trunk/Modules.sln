@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-httpd", "iv-httpd\httpsvr\httpsvr.vcxproj", "{F191A69E-96D0-4327-B642-6B4EFC04C744}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-mysql", "iv-mysql\module\iv-sql.vcxproj", "{B97A6E22-6414-4258-A565-116F88DBC0F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-pawn", "iv-pawn\ivmp_helloworld.vcxproj", "{F749A63C-3108-4C67-AFA1-45D05A080891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Debug|Win32.Build.0 = Debug|Win32
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Release|Win32.ActiveCfg = Release|Win32
+		{F191A69E-96D0-4327-B642-6B4EFC04C744}.Release|Win32.Build.0 = Release|Win32
+		{B97A6E22-6414-4258-A565-116F88DBC0F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B97A6E22-6414-4258-A565-116F88DBC0F0}.Debug|Win32.Build.0 = Debug|Win32
+		{B97A6E22-6414-4258-A565-116F88DBC0F0}.Release|Win32.ActiveCfg = Release|Win32
+		{B97A6E22-6414-4258-A565-116F88DBC0F0}.Release|Win32.Build.0 = Release|Win32
+		{F749A63C-3108-4C67-AFA1-45D05A080891}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F749A63C-3108-4C67-AFA1-45D05A080891}.Debug|Win32.Build.0 = Debug|Win32
+		{F749A63C-3108-4C67-AFA1-45D05A080891}.Release|Win32.ActiveCfg = Release|Win32
+		{F749A63C-3108-4C67-AFA1-45D05A080891}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
