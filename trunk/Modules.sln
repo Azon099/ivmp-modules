@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-mysql", "iv-mysql\module
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-pawn", "iv-pawn\ivmp_helloworld.vcxproj", "{F749A63C-3108-4C67-AFA1-45D05A080891}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iv-irc", "iv-irc\irc.vcxproj", "{98891499-D683-4622-9BCF-DCCEAD0A6674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{F749A63C-3108-4C67-AFA1-45D05A080891}.Debug|Win32.Build.0 = Debug|Win32
 		{F749A63C-3108-4C67-AFA1-45D05A080891}.Release|Win32.ActiveCfg = Release|Win32
 		{F749A63C-3108-4C67-AFA1-45D05A080891}.Release|Win32.Build.0 = Release|Win32
+		{98891499-D683-4622-9BCF-DCCEAD0A6674}.Debug|Win32.ActiveCfg = Release|Win32
+		{98891499-D683-4622-9BCF-DCCEAD0A6674}.Debug|Win32.Build.0 = Release|Win32
+		{98891499-D683-4622-9BCF-DCCEAD0A6674}.Release|Win32.ActiveCfg = Release|Win32
+		{98891499-D683-4622-9BCF-DCCEAD0A6674}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
